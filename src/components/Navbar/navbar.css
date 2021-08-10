@@ -1,0 +1,50 @@
+.navbarContainer{
+    width: 100%;
+    height: 10px;
+   padding-top:10px;
+   
+   
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    
+}
+
+.navbar{
+    background: #008FFF;
+    width: 95%;
+    height: 60px;
+    margin: auto;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    background: #008FFF;
+}
+.navbar ul li{
+    margin-left: 15px;
+    list-style: none;
+    background: #008FFF;
+}
+
+.link{
+       background: #008FFF;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all .4s ease-in;
+}
+.link:hover{
+    color: white;
+    text-decoration: none;
+    
+}

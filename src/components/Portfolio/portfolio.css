@@ -1,0 +1,155 @@
+.portfolio{
+    padding-top: 100px;
+
+    width: 100%;
+    background-color: #F4F5FA;
+}
+
+.ContainerCertificados{
+    padding: 25px;
+   
+    margin: auto;
+    background: #F4F5FA;
+    box-shadow: 3px 7px 17px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.titulo, .certificados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio .img{
+  margin: auto;
+    width: 200px;
+}
+.imgC{
+    width: 170px !important;
+}
+
+.portfolio .img img{
+    width: 90%;
+    margin: auto;
+}
+.infoTitulo,
+.infoCertificado{
+   
+    width: 60%;
+}
+.portfolio h2{
+    font-weight: 700;
+    text-align: center;
+}
+.infoTitulo h4,.infoTitulo p,
+.infoCertificado h4,.infoCertificado p{
+   
+    font-style: italic;
+
+}
+
+.btnC {
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    
+    box-shadow: '0 3px 5px 2px rgba(255, 105, 135, .3)';
+    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)';
+    border-radius: 5px;
+    position: relative;
+    bottom: 0;
+}
+
+
+.proyectos{
+    height: 500px;
+   
+}
+
+@media (max-width: 1000px) {
+    .titulo, .certificados{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+
+    .portfolio .img{
+        margin: auto;
+          width: 160px;
+         
+      }
+      .imgC{
+          width: 135px !important;
+          margin-bottom:20px;
+      }
+
+
+      .portfolio h2{
+        font-size: 25px;
+       text-align: center;
+       
+    }
+    .portfolio p{
+        font-size: 18px;
+    }
+    
+    .infoTitulo,
+    .infoCertificado{
+       
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 570px) {
+   
+    .ContainerCertificados{
+        padding: 15px 0px 15px 0px;
+    
+       
+        
+        border-radius: 10px;
+    }
+
+    .portfolio{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .infoTitulo,
+    .infoCertificado{
+       
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+   
+    .ContainerCertificados{
+        padding: 15px 0px 15px 0px;
+    
+       
+        
+       
+    }
+
+    .infoTitulo,
+    .infoCertificado{
+       
+        width: 90%;
+    }
+
+    .portfolio h2{
+        font-size: 23px;
+       text-align: center;
+       
+    }
+    .portfolio p{
+        font-size: 16px;
+    }
+   
+}

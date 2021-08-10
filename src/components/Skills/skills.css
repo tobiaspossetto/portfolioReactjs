@@ -1,0 +1,161 @@
+.skillsBody{
+    margin: 100px auto 0;
+    height: auto;
+    width: 100%;
+    background-color:#F4F5FA;
+}
+
+.containerSkill{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    background: #FF845D;
+    box-shadow: 0px 4px 17px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.white{
+    padding: 10px;
+    background: #F4F5FA;
+    box-shadow: 3px 7px 17px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.li{
+    position: relative;
+    list-style: none;
+    margin: 50px 0;
+    color: #053C56;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.li:before{
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background: #94D0FF;
+    border-radius: 1000px;
+}
+
+.li:after{
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background: #008FFF;
+    border-radius: 1000px;
+    animation-duration: 3s;
+    animation-timing-function:ease;
+    animation-fill-mode: forwards; 
+}
+
+.li.html:after{
+    animation-name: html;
+
+}
+
+@keyframes html{
+    to{
+        width: 90%;
+    }
+}
+
+.li.css:after{
+    animation-name: css;
+
+}
+
+@keyframes css{
+    to{
+        width: 80%;
+    }
+}
+
+.li.bootstrap:after{
+    animation-name: bootstrap;
+
+}
+
+@keyframes bootstrap{
+    to{
+        width: 75%;
+    }
+}
+
+.li.materialui:after{
+    animation-name: materialui;
+
+}
+
+@keyframes materialui{
+    to{
+        width: 35%;
+    }
+}
+
+.li.react:after{
+    animation-name: react;
+
+}
+
+@keyframes react{
+    to{
+        width: 60%;
+    }
+}
+
+.li.express:after{
+    animation-name: express;
+
+}
+
+@keyframes express{
+    to{
+        width: 25%;
+    }
+}
+
+.li.mysql:after{
+    animation-name: mysql;
+
+}
+
+@keyframes mysql{
+    to{
+        width: 40%;
+    }
+}
+
+.li.mongodb:after{
+    animation-name: mongodb;
+
+}
+
+@keyframes mongodb{
+    to{
+        width: 20%;
+    }
+}
+
+@media (max-width: 590px) {
+   
+    .containerSkill{
+        width: 95%;
+        margin: auto;
+        padding: 20px;
+        background: #FF845D;
+        box-shadow: 0px 4px 17px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+    .white{
+      
+        border-radius: 10px;
+    }
+    
+}

@@ -1,0 +1,198 @@
+.aboutmeBody {
+    padding-top: 100px;
+
+    width: 100%;
+    background-color: #F4F5FA;
+}
+
+.about {
+
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(312.07deg, #4FE3C1 2.32%, #008FFF 111.17%);
+    box-shadow: 3px 8px 15px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.img {
+    width: 300px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info div {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-weight: 800;
+    color: #053C56;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+h3 {
+
+    font-weight: 500;
+    color: #053C56;
+
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(273.98deg, #F6975A 9.75%, #CD3573 107.95%);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.contactMeans {
+    background-color: #F4F5FA;
+   
+    border-radius: 12px;
+   padding: 30px;
+}
+
+
+
+.social {
+    padding: 15px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:rgb(243, 243, 243);
+    box-shadow: -5px -4px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+}
+
+.social p{
+    margin-bottom :0px;
+    margin-left: 10px;
+
+}
+
+.contact a {
+    text-decoration: none;
+    font-weight: 800;
+    color: #053C56;
+}
+
+.social:hover{
+    transition: 2s;
+     background: #F4F5FA;
+    box-shadow: inset -6px -4px 8px 2px rgba(138, 138, 138, 0.25);
+}
+
+@media (max-width: 1000px) {
+   
+    .img {
+        width: 240px;
+    }
+    
+    .img img {
+        width: 100%;
+    }
+    
+    .info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+   
+    
+    
+    h3 {
+    
+       
+        font-size: 30px;
+    
+    }
+    
+   
+    
+}
+
+
+@media (max-width: 800px) {
+   
+    .img {
+        width: 240px;
+    }
+    
+    .img img {
+        width: 100%;
+    }
+    
+    .about {
+
+        margin: auto;
+        padding: 20px;
+       
+      
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    
+    }
+   
+    
+    
+    h3 {
+    
+       
+        font-size: 30px;
+    
+    }
+    .info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    
+}
+
+@media (max-width: 800px) {
+   
+    .about{
+        border-radius: 0;
+    }
+    .contactMeans {
+       
+        border-radius: 0px;
+     
+    }
+    
+    
+    
+    
+}
