@@ -11,7 +11,7 @@ const Navbar = () => {
                         <NavLink
                             className='link'
                             exact
-                            to="/"
+                            to=""
                             activeStyle={{
                                 
                                 textDecoration: "underline"
@@ -27,7 +27,7 @@ const Navbar = () => {
                         <NavLink
                               exact
                               className='link'
-                            to="/skills"
+                            to="skills"
                             activeStyle={{
                                 
                                 textDecoration: "underline"
@@ -39,7 +39,7 @@ const Navbar = () => {
                     <li>
                         <NavLink
                             exact
-                            to="/portfolio"
+                            to="portfolio"
                             className='link'
                             activeStyle={{
                                 
