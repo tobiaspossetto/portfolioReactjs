@@ -11,7 +11,7 @@ function App() {
 
 
 
-    <Router  className="App">
+    <Router basename={process.env.PUBLIC_URL} className="App">
       <Navbar/>
 
 
