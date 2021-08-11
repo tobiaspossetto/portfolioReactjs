@@ -56,7 +56,7 @@ const AboutMe = () => {
                             <h3>Web developer specialized in FrontEnd.
                             Code and coffee lover.</h3>
                         </div>
-                        <a className='btn '>Download CV</a>
+                       
                     </div>
                 </div>
 
