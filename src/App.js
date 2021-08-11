@@ -5,13 +5,13 @@ import AboutMe from './components/AboutMe/AboutMe'
 import Portfolio from './components/Portfolio/Portfolio'
 import Skills from './components/Skills/Skills'
 import Navbar from './components/Navbar/Navbar'
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
 
 
 
-    <Router basename={process.env.PUBLIC_URL} className="App">
+    <Router  className="App">
       <Navbar/>
 
 
