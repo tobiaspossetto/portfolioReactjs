@@ -69,21 +69,33 @@ const Portfolio = () => {
             </div>
             <div className="proyectos container ">
                 <div className="row m-auto">
-                    <div className="col-md-6 mb-2 mt-5 ">
+                    <motion.div 
+                         initial={{y:"50px", opacity:0}}
+                             animate={{y:"0px", opacity:1, transition: {duration:1, ease: "easeIn"}}}
+                        className="col-md-6 mb-2 mt-5 ">
                        <CardP name='Netflix UI clone' img='https://i.imgur.com/ikOZKvM.jpg' description='Clone of Netflix with React and TMDB.' link='https://github.com/tobiaspossetto/netflix-ui-clone'/>
-                    </div>
+                    </motion.div>
 
-                    <div className="col-md-6 mb-2 mt-5 ">
+                    <motion.div 
+                         initial={{y:"50px", opacity:0}}
+                             animate={{y:"0px", opacity:1, transition: {duration:2, ease: "easeIn"}}}
+                        className="col-md-6 mb-2 mt-5 ">
                         <CardP name='Pizza Club' img='https://i.imgur.com/bwtT9PT.png'  description='Website with pure html and css for a restaurant.' link='https://github.com/tobiaspossetto/PizzaClub-CoderHouse'/>
-                    </div>
+                    </motion.div>
 
-                    <div className="col-md-6 mb-2 mt-5 ">
+                    <motion.div 
+                         initial={{y:"50px", opacity:0}}
+                             animate={{y:"0px", opacity:1, transition: {duration:3, ease: "easeIn"}}}
+                        className="col-md-6 mb-2 mt-5 ">
                          <CardP name='Agape App' img='https://i.imgur.com/D9zEo41.png'description='Ecommerce created with React and Firebase.' link='https://github.com/tobiaspossetto/coder-react-agape'/>
-                    </div>
+                    </motion.div>
 
-                    <div className="col-md-6 mb-2 mt-5 ">
+                    <motion.div 
+                         initial={{y:"50px", opacity:0}}
+                             animate={{y:"0px", opacity:1, transition: {duration:4, ease: "easeIn"}}}
+                        className="col-md-6 mb-2 mt-5 ">
                         <CardP name='Cafe' img='https://i.imgur.com/NpgsDMB.png' description='My first website designed for a bar.' link='https://github.com/tobiaspossetto/confiteria'/>
-                    </div>
+                    </motion.div>
                 </div>
                  <BtnLink to='/' name='About Me'/>
             </div>

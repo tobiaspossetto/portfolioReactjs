@@ -49,7 +49,10 @@ const AboutMe = () => {
                         <img src='https://i.imgur.com/25Up8qP.png' />
 
                     </motion.div>
-                    <div className='info c'>
+                    <motion.div 
+                         initial={{ opacity:0}}
+                         animate={{ opacity:1, transition: {duration:1, ease: "easeIn"}}}
+                      className='info c'>
                         <div>
 
                              <h1>I'm Tobías</h1>
@@ -57,46 +60,58 @@ const AboutMe = () => {
                             Code and coffee lover.</h3>
                         </div>
                        
-                    </div>
+                    </motion.div>
                 </div>
 
                 <div className="contact">
-            <div className="contactMeans container">
+            <div className="contactMeans ">
                     <div className="row m-auto">
-                        <a rel="noreferrer"  target="_blank" href='https://api.whatsapp.com/send?phone=549356465-6612' className=" social col-md-5 mb-2 mt-2  mr-auto ml-auto">
+                        <motion.a 
+                             initial={{y:"25px", opacity:0}}
+                             animate={{y:"0px", opacity:1, transition: {duration:1, ease: "easeIn"}}}
+                            rel="noreferrer"  target="_blank" href='https://api.whatsapp.com/send?phone=549356452-8523' className=" social col-md-5 mb-2 mt-2  mr-auto ml-auto">
                                 <div className="d-flex align-items-center ">
 
                                     <IoIcons.IoLogoWhatsapp size={30} color='black'/>
                                     <p>WhatsApp</p>
                                 </div>
                                
-                        </a>
+                        </motion.a>
 
-                        <a rel="noreferrer"  target="_blank" href='https://www.instagram.com/tobias_possetto/?hl=es-la' className=" social col-md-5 mb-2 mt-2  mr-auto ml-auto">
+                        <motion.a 
+                             initial={{y:"25px", opacity:0}}
+                             animate={{y:"0px", opacity:1, transition: {duration:2, ease: "easeIn"}}}
+                            rel="noreferrer"  target="_blank" href='https://www.instagram.com/tobias_possetto/?hl=es-la' className=" social col-md-5 mb-2 mt-2  mr-auto ml-auto">
                                 <div className="d-flex align-items-center ">
 
                                      <AiIcons.AiFillInstagram size={30} color='black'/>
                                      <p>Instagram</p>
                                 </div>
                                 
-                        </a>
+                        </motion.a>
 
-                        <a rel="noreferrer"  target="_blank" href='https://www.linkedin.com/in/tob%C3%ADas-possetto-161270186/' className=" social col-md-5 mb-2 mt-2  mr-auto ml-auto">
+                        <motion.a 
+                             initial={{y:"25px", opacity:0}}
+                             animate={{y:"0px", opacity:1, transition: {duration:3, ease: "easeIn"}}}
+                            rel="noreferrer"  target="_blank" href='https://www.linkedin.com/in/tob%C3%ADas-possetto-161270186/' className=" social col-md-5 mb-2 mt-2  mr-auto ml-auto">
                                 <div className="d-flex align-items-center ">
 
                                   <AiIcons.AiFillLinkedin size={30} color='black'/>
                                   <p>Linkedin</p>
                                 </div>
-                                
-                        </a>
-                        <a rel="noreferrer"  target="_blank" href='mailto:tobigpossetto@gmail.com' className=" social col-md-5 mb-2 mt-2  mr-auto ml-auto">
+                              
+                        </motion.a>
+                        <motion.a 
+                             initial={{y:"25px", opacity:0}}
+                             animate={{y:"0px", opacity:1, transition: {duration:4, ease: "easeIn"}}}
+                            rel="noreferrer"  target="_blank" href='mailto:tobigpossetto@gmail.com' className=" social col-md-5 mb-2 mt-2  mr-auto ml-auto">
                                 <div className="d-flex align-items-center ">
 
                                 <SiIcons.SiGmail size={30} color='black'/>
                                 <p>Gmail</p>
                                 </div>
                                 
-                        </a>
+                        </motion.a>
                                    
                                  
                                     
@@ -105,9 +120,9 @@ const AboutMe = () => {
         </div>
 
 
-                <BtnLink to='/skills' name='skills'/>
 
            
+                <BtnLink to='/skills' name='Skills'/>
         </motion.div >
     )
 }

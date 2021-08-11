@@ -52,7 +52,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            <BtnLink to='/portfolio' name='PORTFOLIO'/>
+            <BtnLink to='/portfolio' name='Portfolio'/>
             </motion.div>
     )
 }
